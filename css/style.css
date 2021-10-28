@@ -1,0 +1,163 @@
+main{
+    margin: auto;
+    max-width: 70vw;
+}
+p{
+    font-size: 1em;
+    font-family: sans-serif;
+    color: rgb(97, 97, 97);
+    margin-left: 15px;
+    margin-bottom: 30px;
+    max-width: 70vw;
+    margin: auto;
+    text-align: left;
+    line-height:30px;
+}
+#btnLogin{
+    float:right;
+    margin: 0;
+
+}
+#h1Home{
+    font-weight: bold;
+    font-size: 4em;
+    font-family: sans-serif;
+    top: 30vh;
+    transform: translate(50vw);
+    text-align: center;
+    max-width: 500px;
+    position: absolute;
+    border-left: solid 10px black;
+    padding-left: 15px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.541);
+}
+
+h2{
+    font-weight: bold;
+    font-size: 2em;
+    font-family: sans-serif;
+    max-width: 500px;
+    border-left: solid 10px black;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+h3{
+    font-weight: bold;
+    font-size: 1em;
+    font-family: sans-serif;
+    max-width: 500px;
+    border-left: solid 10px black;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+main {
+    top: 15px;
+}
+input{
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(172, 172, 172, 0.336);
+    border-radius: 5px;
+    display: block;
+    margin-top: 8px;
+    margin-left: 10px;
+    border: solid 2px rgb(153, 153, 153);
+
+}
+textarea{
+    margin-left: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(172, 172, 172, 0.336);
+    border-radius: 5px;
+    display: block;
+    margin-top: 8px;
+    border: none;
+    border: solid 2px rgb(153, 153, 153);
+}
+#enviar{
+    cursor: pointer;
+}
+#enviar:active{
+    background-color: rgb(255, 229, 82);
+}
+#imgSobre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+#imgHome{
+    background-image: url("https://codersacademy.tech/img/home-tech.957b6c47.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+#secHome{
+    width:100%;
+    height: 100vh;
+
+}
+#secHome p{
+    width:100%;
+    height: 100vh;
+    font-size: 2em;
+    margin-top: 30px;
+
+}
+#secHome h2{
+    margin-left: 15%;
+    margin-top: 30px;
+
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    display: block;
+    width: max-content;
+    
+}
+.btn:hover{
+    background-color: rgb(255, 252, 241);
+    transition: 0.5s;
+}
+footer{
+    background-color: rgb(255, 234, 114);
+    height: max-content;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    display: flex;
+    box-shadow: 0px -5px 5px rgba(107, 107, 107, 0.336);
+}
+footer div{
+    position: relative;
+    width: 35%;
+    height: max-content;
+    color: rgb(49, 49, 49);
+    padding: 20px;
+    font-family: sans-serif;
+}
+footer p{
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 0px;
+}

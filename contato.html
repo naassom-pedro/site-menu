@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu dropdown</title>
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="dp-menu">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Cursos</a>
+                <ul>
+                    <li><a href="./java.html">Java</a></li>
+                    <li><a href="./php.html">PHP</a></li>
+                    <li><a href="./react.html">React Native</a></li>
+                    <li><a href="./android.html">Android</a></li>
+                </ul>
+            </li>
+            <li><a href="./contato.html">Contato</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+
+    <main id="contatoMain">
+        <h2>Fale conosco</h2>
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="E-mail" required>
+        <textarea id="" cols="60" rows="20" placeholder="Escreva aqui a sua mensagem..." required></textarea>
+        <input id="enviar" type="submit"></>
+
+        <script>
+            btn = document.getElementById("enviar")
+            btn.addEventListener("click", function() {alert("Mensagem enviada com sucesso! Isto é apenas um teste de envio.")})
+        </script>
+        
+    </main>
+
+    <footer>
+        <div>
+            <h3>Titulo 1 que fala algo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sit reiciendis laborum numquam quasi temporibus fugit, nesciunt asperiores. Quibusdam ipsam explicabo ea in hic aut, deserunt fuga ipsum quasi magni!</p></div>
+        <div>
+            <h3>Titulo 2 que fala algo</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, enim! Explicabo eaque hic similique. Possimus laborum, nihil sunt voluptatum voluptates in temporibus itaque deleniti enim repellat similique est libero officiis!</p>
+        </div>
+        <div>
+            <h3>Titulo 3 que fala algo</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, enim! Explicabo eaque hic similique. Possimus laborum, nihil sunt voluptatum voluptates in temporibus itaque deleniti enim repellat similique est libero officiis!</p>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
