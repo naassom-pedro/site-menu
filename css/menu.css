@@ -6,12 +6,14 @@
     background-color: rgb(255, 255, 116);
     top: 0;
     margin: 0;
+    text-align: center;
   }
   
   
   .dp-menu ul li {
     display: inline;
     position: relative;
+    
   }
   
   .dp-menu ul li a {
@@ -35,6 +37,8 @@
     display: none;
     left: 0;
     position: absolute;
+    margin-top: 25px;
+    border: solid 2px rgb(153, 153, 153);
   }
   
   .dp-menu ul li:hover ul {
