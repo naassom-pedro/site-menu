@@ -27,9 +27,9 @@
   }
   
   .dp-menu ul li a:hover {
-    background-color: rgb(255, 228, 73);
     color: black;
-    font-weight: bold;
+    border-radius: 5px;
+    border: solid 1px black;
   }
   
   /*sub menu*/
@@ -37,8 +37,15 @@
     display: none;
     left: 0;
     position: absolute;
-    margin-top: 25px;
-    border: solid 2px rgb(153, 153, 153);
+    margin-top: 30px;
+    padding: 0;
+  }
+  
+  .dp-menu ul ul li a{
+    border: none;
+  }
+  .dp-menu ul ul li a:hover {
+    border: none;
   }
   
   .dp-menu ul li:hover ul {
@@ -46,7 +53,7 @@
   }
   
   .dp-menu ul ul {
-    width: 150px
+    width: 150px;
   }
   
   .dp-menu ul ul li a {

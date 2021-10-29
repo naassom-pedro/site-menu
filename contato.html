@@ -29,12 +29,14 @@
 
 
     <main id="contatoMain">
-        <h2>Fale conosco</h2>
-        <input type="text" placeholder="Seu nome" required>
-        <input type="email" placeholder="E-mail" required>
-        <textarea id="" cols="60" rows="20" placeholder="Escreva aqui a sua mensagem..." required></textarea>
-        <input id="enviar" type="submit"></>
 
+        <section id="contato">
+            <h2>Fale conosco</h2>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="E-mail" required>
+            <textarea id="" cols="60" rows="20" placeholder="Escreva aqui a sua mensagem..." required></textarea>
+            <input id="enviar" type="submit"></>
+        </section>
         <script>
             btn = document.getElementById("enviar")
             btn.addEventListener("click", function() {alert("Mensagem enviada com sucesso! Isto é apenas um teste de envio.")})
